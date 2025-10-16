@@ -1,0 +1,122 @@
+
+ {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f7fb;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* ✅ MAIN CONTAINER */
+.container {
+  max-width: 800px;
+  background-color: #ffffff;
+  margin: 0 auto;
+  padding: 25px 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* ✅ HEADER */
+header {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+header h1 {
+  font-size: 28px;
+  color: #0077cc;
+  margin-top: 15px;
+}
+
+header p {
+  font-size: 14px;
+  color: #555;
+  margin-top: 4px;
+}
+
+header a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+/* ✅ PROFILE IMAGE */
+.profile-img {
+  width: 130px;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #0077cc;
+  margin-top: 10px;
+}
+
+/* ✅ SECTIONS */
+section {
+  margin-top: 25px;
+}
+
+section h2 {
+  font-size: 20px;
+  color: #0077cc;
+  border-bottom: 2px solid #0077cc;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+section p {
+  margin-top: 8px;
+  font-size: 15px;
+}
+
+/* ✅ LISTS */
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+ul li {
+  margin-bottom: 6px;
+  font-size: 15px;
+}
+
+/* ✅ SKILLS SECTION */
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.skill-item {
+  background-color: #e6f0fa;
+  border: 1px solid #c3d9f0;
+  color: #0077cc;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 14px;
+  transition: background-color 0.2s ease;
+}
+
+.skill-item:hover {
+  background-color: #d4e6f9;
+}
+
+
+.references ul li {
+  font-size: 15px;
+}
+
+.references strong {
+  color: #333;
+}
